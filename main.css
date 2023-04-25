@@ -1,0 +1,33 @@
+div.nav-item{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media (max-width: 768px) {
+        margin-top: 1em;
+    }
+    margin-right: 1em;
+}
+
+div.navbar-nav div.nav-item:nth-child(1){background-image: url(Images/Lunar_Tear.png);}
+div.navbar-nav div.nav-item:nth-child(2){background-image: url(Images/YoRHa_logo.png);}
+div.navbar-nav div.nav-item:nth-child(3){background-image: url(Images/Machine_Head.png);}
+div.navbar-nav div.nav-item:nth-child(4){background-image: url(Images/Other.png);}
+
+div.navbar-nav div.nav-item:hover{transform: scale(1.3);}
+
+div.nav-item span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 110px;
+    font-display: none;
+}
+div.nav-item span:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
