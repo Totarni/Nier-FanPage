@@ -4,10 +4,10 @@ div.nav-item{
     height: 60px;
     background-size: cover;
     background-repeat: no-repeat;
-    @media (max-width: 991px) { /*itt vált át a navbar*/
-        margin-top: 1em;
-    }
     margin-right: 1em;
+}
+@media (max-width: 991px) { /*itt vált át a navbar*/
+    div.nav-item{margin-top: 1em;}
 }
 div.nav-home{
     margin-top: 0;
@@ -28,7 +28,6 @@ div.nav-item span{
     left: 0;
     text-align: center;
     line-height: 110px;
-    font-display: none;
 }
 div.nav-item span:hover{
     background-color: rgba(255, 255, 255, 0.5);
@@ -45,8 +44,8 @@ span.navbar-text{
 }
 
 /*nav bar megoldás mert mindig ki logot*/
+@media (min-width:992px){
 div.navbar-collapse.collapse{
-    @media (min-width:991px){
         display: flex;
         justify-content: flex-end;
     }
