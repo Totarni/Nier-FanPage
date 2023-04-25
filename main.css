@@ -1,3 +1,14 @@
+body{
+    
+    background-image: url(Images/Nierbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    color: wheat;
+}
+
 div.nav-item{
     position: relative;
     width: 60px;
@@ -31,7 +42,7 @@ div.nav-item span{
 }
 div.nav-item span:hover{
     background-color: rgba(255, 255, 255, 0.5);
-    color: black;
+    color: wheat;
 }
 
 span.navbar-text{
@@ -40,7 +51,14 @@ span.navbar-text{
     font-variant: small-caps;
     text-decoration: none;
     color: black;
-    margin-right: 1em;
+    margin-right: 0.5em;
+}
+span.motd{
+    font-size: 1em;
+    font-weight: normal;
+    font-variant: none;
+    font-style: italic;
+    width: 1em;
 }
 
 /*nav bar megoldás mert mindig ki logot*/

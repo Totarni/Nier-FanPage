@@ -21,3 +21,6 @@
           </div>
         </div>
      </nav>
+
+Kérdések
+Ha szöveg direkt halvány alapból de amikor rá viszi az egeret a személy akkor jól olvasható ez igy hibás? Kell rá valami 
