@@ -4,18 +4,21 @@ div.nav-item{
     height: 60px;
     background-size: cover;
     background-repeat: no-repeat;
-    @media (max-width: 768px) {
+    @media (max-width: 991px) { /*itt vált át a navbar*/
         margin-top: 1em;
     }
     margin-right: 1em;
 }
+div.nav-home{
+    margin-top: 0;
+}
 
-div.navbar-nav div.nav-item:nth-child(1){background-image: url(Images/Lunar_Tear.png);}
-div.navbar-nav div.nav-item:nth-child(2){background-image: url(Images/YoRHa_logo.png);}
-div.navbar-nav div.nav-item:nth-child(3){background-image: url(Images/Machine_Head.png);}
-div.navbar-nav div.nav-item:nth-child(4){background-image: url(Images/Other.png);}
+div.nav-home{background-image: url(Images/Lunar_Tear.png);}
+div.navbar-nav div.nav-item:nth-child(1){background-image: url(Images/YoRHa_logo.png);}
+div.navbar-nav div.nav-item:nth-child(2){background-image: url(Images/Machine_Head.png);}
+div.navbar-nav div.nav-item:nth-child(3){background-image: url(Images/Other.png);}
 
-div.navbar-nav div.nav-item:hover{transform: scale(1.3);}
+div.nav-item:hover{transform: scale(1.3);}
 
 div.nav-item span{
     position: absolute;
@@ -30,4 +33,21 @@ div.nav-item span{
 div.nav-item span:hover{
     background-color: rgba(255, 255, 255, 0.5);
     color: black;
+}
+
+span.navbar-text{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: black;
+    margin-right: 1em;
+}
+
+/*nav bar megoldás mert mindig ki logot*/
+div.navbar-collapse.collapse{
+    @media (min-width:991px){
+        display: flex;
+        justify-content: flex-end;
+    }
 }
