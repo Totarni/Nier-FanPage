@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="main.css">
-    <title>Home page</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/form.css">
+    <title>NieR fanwiki - Home page</title>
 </head>
 <body>
   <header>
@@ -55,10 +56,10 @@
     </nav>
   </header>
   <div class="container">
+    <h1>Welcome to the Nier Automata fanwiki page!</h1>
     <div class="row">
       <div class="col-lg-6">
           <section>
-            <h1>Welcome to the Nier Automata fanwiki page!</h1>
             <p>This site is dedicated to fans of the Nier Automata video game who want to delve deeper into its world, characters, and story.</p>
             <p>Nier Automata is an action role-playing game developed by PlatinumGames and published by Square Enix in 2017.</p>
             <p> The game takes place in a post-apocalyptic world where human-like androids fight against machine invaders to reclaim Earth for their creators.</p>
@@ -82,14 +83,14 @@
       <div class="col">
         Forms!!!
         <form>
-          <h2>Nier Automata Weapon Form</h2>
+          <h2>Create your Nier Automata Weapon</h2>
           
           <label for="weapon-name">Weapon Name:</label>
           <input type="text" id="weapon-name" name="weapon-name" required>
           
           <label>Weapon Category:</label>
           <div class="radio-group">
-            <label><input type="radio" name="weapon-category" value="1h-sword">1H Sword</label>
+            <label><input type="radio" name="weapon-category" value="1h-sword" checked>1H Sword</label>
             <label><input type="radio" name="weapon-category" value="2h-sword">2H Sword</label>
             <label><input type="radio" name="weapon-category" value="spear">Spear</label>
             <label><input type="radio" name="weapon-category" value="combat-bracers">Combat Bracers</label>
