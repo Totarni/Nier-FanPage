@@ -30,8 +30,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-          <div class="nav-item">
-            <a class="nav-link flex-fill" href="YoRHa.html">
+          <div class="nav-item flex-fill">
+            <a class="nav-link" href="YoRHa.html">
                 <!--<img src="Images/YoRHa_logo.png" alt="home" width="30" height="30" class="me-2">-->
                 <span>YoRHa</span>
             </a>
@@ -56,25 +56,64 @@
   </header>
   <div class="container">
     <div class="row">
-      <div class="col">
-        <div class="row">
-          
-  <section>
-    <h1>Welcome to the Nier Automata fanwiki page!</h1>
-    <p>This site is dedicated to fans of the Nier Automata video game who want to delve deeper into its world, characters, and story.</p>
-    <p>Nier Automata is an action role-playing game developed by PlatinumGames and published by Square Enix in 2017.</p>
-    <p> The game takes place in a post-apocalyptic world where human-like androids fight against machine invaders to reclaim Earth for their creators.</p>
-    <p> The game's intricate narrative, immersive gameplay, and memorable characters have earned it critical acclaim and a devoted fanbase.</p>
-    <p> Whether you're a veteran player or a newcomer to the game, this wiki is here to help you explore and understand everything that Nier Automata has to offer.</p>
-    <p>Note: Be wary of unmarked spoilers! Read at your own risk.</p>
-  </section>
-        </div>
-        <div class="row">
-         alatta lévő cucc 
-        </div>
+      <div class="col-lg-6">
+          <section>
+            <h1>Welcome to the Nier Automata fanwiki page!</h1>
+            <p>This site is dedicated to fans of the Nier Automata video game who want to delve deeper into its world, characters, and story.</p>
+            <p>Nier Automata is an action role-playing game developed by PlatinumGames and published by Square Enix in 2017.</p>
+            <p> The game takes place in a post-apocalyptic world where human-like androids fight against machine invaders to reclaim Earth for their creators.</p>
+            <p> The game's intricate narrative, immersive gameplay, and memorable characters have earned it critical acclaim and a devoted fanbase.</p>
+            <p> Whether you're a veteran player or a newcomer to the game, this wiki is here to help you explore and understand everything that Nier Automata has to offer.</p>
+            <p>Note: Be wary of unmarked spoilers! Read at your own risk.</p>
+          </section>
+        
       </div>
+      <div class="col-lg-6">
+        video!!! todo video fade out
+        <video controls poster="Images/Nier-videoPoster.png">
+          <source src="NieR Trailer.mp4" type="video/mp4">                  
+          <p>Your browser does not support HTML5 embedded playback of video files.</p>           
+          <p><a href="NieR Trailer.mp4">You can download the file in mp4 format.</a></p>
+        </video>
+
+      </div>
+    </div>
+    <div class="row">
       <div class="col">
-        Column
+        Forms!!!
+        <form>
+          <h2>Nier Automata Weapon Form</h2>
+          
+          <label for="weapon-name">Weapon Name:</label>
+          <input type="text" id="weapon-name" name="weapon-name" required>
+          
+          <label>Weapon Category:</label>
+          <div class="radio-group">
+            <label><input type="radio" name="weapon-category" value="1h-sword">1H Sword</label>
+            <label><input type="radio" name="weapon-category" value="2h-sword">2H Sword</label>
+            <label><input type="radio" name="weapon-category" value="spear">Spear</label>
+            <label><input type="radio" name="weapon-category" value="combat-bracers">Combat Bracers</label>
+          </div>
+          
+          <label>Weapon Abilities:</label>
+          <div class="checkbox-group">
+            <label><input type="checkbox" name="weapon-ability" value="fire">Fire</label>
+            <label><input type="checkbox" name="weapon-ability" value="ice">Ice</label>
+            <label><input type="checkbox" name="weapon-ability" value="electricity">Electricity</label>
+            <label><input type="checkbox" name="weapon-ability" value="poison">Poison</label>
+          </div>
+          
+          <label for="weapon-history">Weapon Background:</label>
+          <textarea id="weapon-history" name="weapon-history"></textarea>
+          
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <div class="button-group">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
       </div>
     </div>
 </div>

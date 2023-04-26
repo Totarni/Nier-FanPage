@@ -1,11 +1,10 @@
 body{
-    
     background-image: url(Images/Nierbg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-
+    background-color: black; /*főként a wcag miatt kell mert enélkül azt hiszi fehér a háttér*/
     color: wheat;
 }
 
@@ -38,7 +37,8 @@ div.nav-item span{
     top: 0;
     left: 0;
     text-align: center;
-    line-height: 110px;
+    line-height: 100px;
+    color: white;
 }
 div.nav-item span:hover{
     background-color: rgba(255, 255, 255, 0.5);
@@ -68,4 +68,90 @@ div.navbar-collapse.collapse{
         display: flex;
         justify-content: flex-end;
     }
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/*todo*/
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.checkbox-group input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00BFFF;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #0080FF;
 }
