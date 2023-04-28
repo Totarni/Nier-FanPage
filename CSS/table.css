@@ -1,0 +1,31 @@
+.table {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #222;
+    background-color: #f5deb3;
+  }
+  
+  .table th,td.Category{
+    text-align: center;
+  }
+  td.Category{
+    font-weight: bold;
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #d8b073;
+    color: #fff;
+  }
+  
+  .table td {
+    background-color: #faf3d3;
+  }
+  
+  /*table pic*/
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
