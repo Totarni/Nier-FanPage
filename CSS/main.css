@@ -15,6 +15,9 @@ h1 {
     margin-bottom: 40px;
 }
 
+nav#toContent a {position:absolute; left:-9999px}
+nav#toContent a:focus {position:static; background-color:white}
+
 div.nav-item{
     position: relative;
     width: 60px;
