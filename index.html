@@ -21,7 +21,7 @@
           </a>
       </div>
       <span class="navbar-text flex-fill motd">
-        "The end Is near and the beginning is here"
+        <q>The end Is near and the beginning is here</q>
       </span>
       <span class="navbar-text flex-fill">
         Home p[A]ge
@@ -65,7 +65,7 @@
             <p> The game takes place in a post-apocalyptic world where human-like androids fight against machine invaders to reclaim Earth for their creators.</p>
             <p> The game's intricate narrative, immersive gameplay, and memorable characters have earned it critical acclaim and a devoted fanbase.</p>
             <p> Whether you're a veteran player or a newcomer to the game, this wiki is here to help you explore and understand everything that Nier Automata has to offer.</p>
-            <p>Note: Be wary of unmarked spoilers! Read at your own risk.</p>
+            <p> Note: Be wary of unmarked spoilers! Read at your own risk.</p>
           </section>
         
       </div>
@@ -81,12 +81,11 @@
     </div>
     <div class="row">
       <div class="col">
-        Forms!!!
-        <form>
+        <form action="mailto:example@example.com" method="post" enctype="text/plain">
           <h2>Create your Nier Automata Weapon</h2>
           
           <label for="weapon-name">Weapon Name:</label>
-          <input type="text" id="weapon-name" name="weapon-name" required>
+          <input type="text" id="weapon-name" name="weapon-name" maxlength="64" required>
           
           <label>Weapon Category:</label>
           <div class="radio-group">
@@ -98,17 +97,16 @@
           
           <label>Weapon Abilities:</label>
           <div class="checkbox-group">
-            <label><input type="checkbox" name="weapon-ability" value="fire">Fire</label>
-            <label><input type="checkbox" name="weapon-ability" value="ice">Ice</label>
-            <label><input type="checkbox" name="weapon-ability" value="electricity">Electricity</label>
-            <label><input type="checkbox" name="weapon-ability" value="poison">Poison</label>
+            <label><input type="checkbox" name="weapon-ability" value="Stun Up">Stun Up</label>
+            <label><input type="checkbox" name="weapon-ability" value="ATK Speed Up">ATK Speed Up</label>
+            <label><input type="checkbox" name="weapon-ability" value="Robot Discount">Robot Discount</label>
+            <label><input type="checkbox" name="weapon-ability" value="Discount">Discount</label>
+            <label><input type="checkbox" name="weapon-ability" value="Endurance Up">Endurance Up</label>
+            <label><input type="checkbox" name="weapon-ability" value="Critical +">Critical +</label>
           </div>
           
           <label for="weapon-history">Weapon Background:</label>
           <textarea id="weapon-history" name="weapon-history"></textarea>
-          
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" required>
           
           <div class="button-group">
             <button type="submit">Submit</button>
@@ -118,11 +116,5 @@
       </div>
     </div>
 </div>
-  <article>
-    Testing
-  </article>
-  <aside>
-    Aside test
-  </aside>
 </body>
 </html>
