@@ -5,6 +5,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-color: black; /*főként a wcag miatt kell mert enélkül azt hiszi fehér a háttér*/
+    font-family: Verdana,sans-serif ,Tahoma,Geneva ;
     color: wheat;
 }
 
@@ -15,6 +16,8 @@ h1 {
     margin-bottom: 40px;
 }
 h2{text-align: center;}
+
+caption{color: wheat;}
 
 nav#toContent a {position:absolute; left:-9999px}
 nav#toContent a:focus {position:static; background-color:white}
@@ -39,6 +42,13 @@ div.navbar-nav div.nav-item:nth-child(1){background-image: url(../Images/YoRHa_l
 div.navbar-nav div.nav-item:nth-child(2){background-image: url(../Images/Machine_Head.png);}
 div.navbar-nav div.nav-item:nth-child(3){background-image: url(../Images/Other.png);}
 
+/*az adott oldalon jár a személy*/
+.here{
+    color:aqua !important;
+    font-style: italic;
+}
+/**/
+
 div.nav-item:hover{transform: scale(1.3);}
 
 div.nav-item span{
@@ -49,6 +59,7 @@ div.nav-item span{
     left: 0;
     text-align: center;
     line-height: 100px;
+    font-size: 0.9em;
     color: white;
 }
 div.nav-item span:hover{
