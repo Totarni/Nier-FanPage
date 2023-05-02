@@ -1,0 +1,22 @@
+@media print{
+    body{
+        color : black;
+    }
+    div.nav-item{
+        display: none;
+    }
+    span.navbar-text{
+        color: black !important;
+    }
+    video{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    th{color: black !important;}
+    details{color: black;}
+}
